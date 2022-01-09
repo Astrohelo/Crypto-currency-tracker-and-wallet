@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/crypto">
+
+    <fragment
+        android:id="@+id/crypto"
+        android:name="hu.bme.aut.android.cryptowallet.fragments.CryptoList"
+        android:label="fragment_crypto_list"
+        tools:layout="@layout/fragment_crypto_list" >
+        <action
+            android:id="@+id/action_crypto_to_wallet"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/wait_anim"
+            app:popEnterAnim="@anim/wait_anim"
+            app:popExitAnim="@anim/slide_left"
+            app:destination="@id/wallet" />
+    </fragment>
+    <fragment
+        android:id="@+id/wallet"
+        android:name="hu.bme.aut.android.cryptowallet.fragments.Wallet"
+        android:label="fragment_wallet_list"
+        tools:layout="@layout/fragment_wallet_list" >
+        <action
+            android:id="@+id/action_wallet_to_crypto"
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/wait_anim"
+            app:popEnterAnim="@anim/wait_anim"
+            app:popExitAnim="@anim/slide_right"
+            app:destination="@id/crypto" />
+    </fragment>
+</navigation>

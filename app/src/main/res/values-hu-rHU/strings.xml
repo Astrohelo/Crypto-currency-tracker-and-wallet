@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kripto pénztárca</string>
+    <string name="wallet">Pénztárca</string>
+    <string name="allcryptos">Összes</string>
+    <string name="percentage">%</string>
+    <string name="in_last_week">7n:</string>
+    <string name="in_last_day">24ó:</string>
+    <string name="in_last_hour">1ó:</string>
+    <string name="day_night">Nappal/Éjjel</string>
+    <string name="buyButton">Vétel</string>
+    <string name="cancelButton">Mégse</string>
+    <string name="sellButton">Eladás</string>
+    <string name="dollarSign">$</string>
+    <string name="amount">Mennyiség:</string>
+</resources>

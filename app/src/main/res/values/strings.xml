@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CryptoWallets</string>
+    <string name="wallet">Wallet</string>
+    <string name="allcryptos">All cryptos</string>
+    <string name="percentage">%</string>
+    <string name="in_last_week">7d:</string>
+    <string name="in_last_day">24h:</string>
+    <string name="in_last_hour">1h:</string>
+    <string name="day_night">Day/Night</string>
+    <string name="buyButton">Buy</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="sellButton">Sell</string>
+    <string name="dollarSign">$</string>
+    <string name="amount">Amount:</string>
+</resources>
